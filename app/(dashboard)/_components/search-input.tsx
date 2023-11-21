@@ -36,7 +36,7 @@ const SearchInput = () => {
     clearTimeout(timer);
 
     router.push(url);
-  }, [value, router, pathname]);
+  }, [value, router, pathname, currentCategoryId]);
 
   return (
     <div className="relative items-center flex">

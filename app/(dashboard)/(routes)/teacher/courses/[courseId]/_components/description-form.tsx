@@ -45,7 +45,7 @@ const DescriptionForm = ({ intialData, courseId }: DescriptionFormProps) => {
   const onSubmit = async (values: z.infer<typeof formSchema>) => {
     try {
       const res = await axios.patch(
-        `http://localhost:3000/api/courses/${courseId}`,
+        `/api/courses/${courseId}`,
         values
       );
 
