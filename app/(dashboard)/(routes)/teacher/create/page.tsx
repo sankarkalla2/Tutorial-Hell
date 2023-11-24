@@ -38,7 +38,7 @@ const Create = () => {
 
   const onSubmit = async (values: z.infer<typeof formSchema>) => {
     try {
-      const res = await axios.post("http://localhost:3000/api/courses", values);
+      const res = await axios.post("/api/courses", values);
 
       toast.success(
         `your course ${res.data.title} has been successfull created`
