@@ -54,8 +54,8 @@ const ChapterIdPage = async ({
         />
       )}
 
-      <div className="flex flex-col max-w-4xl mx-auto relative z-0">
-        <div className="p-4">
+      <div className="flex flex-col max-w-4xl mx-auto">
+        <div className="p-4 aspect-video relative">
           <VidoePlayer
             chapterId={params.chapterId}
             nextChapter={nextChapter?.id}
@@ -66,7 +66,7 @@ const ChapterIdPage = async ({
           />
         </div>
         <div className="p-4 flex flex-col items-center md:flex-row md:justify-between">
-          <h2 className="text-3xl font-semibold pb-2">{chapter.title}</h2>
+          <h2 className="text-3xl font-semibold pb-2 mt-20">{chapter.title}</h2>
           {purchase ? (
             <div className="self-stretch md:self-end">
               <CourseProgressButton

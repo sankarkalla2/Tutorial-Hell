@@ -20,7 +20,7 @@ export const getDashboardCourses = async (
       where: {
         userId: userId,
       },
-      include: {
+      select: {
         course: {
           include: {
             category: true,
@@ -33,6 +33,8 @@ export const getDashboardCourses = async (
         },
       },
     });
+
+    console.log(purchasedCourses);
 
     const courses = purchasedCourses.map(
       (purchase) => purchase.course

@@ -1,8 +1,9 @@
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
-import { IconType } from "react-icons";
+import { IconBase, IconType } from "react-icons";
 import qs from "query-string";
+import { IconBadge } from "@/components/icon-badge";
 
 interface CategoryItempProps {
   label?: string;
@@ -10,7 +11,7 @@ interface CategoryItempProps {
   icon: IconType;
 }
 
-const CategoryItem = ({ label, value, icon: Icon }: CategoryItempProps) => {
+const CategoryItem = ({ label, value, icon }: CategoryItempProps) => {
   const pathname = usePathname();
   const router = useRouter();
   const searchParams = useSearchParams();
@@ -43,7 +44,7 @@ const CategoryItem = ({ label, value, icon: Icon }: CategoryItempProps) => {
         isSelected && "border-sky-700 text-sky-700 bg-sky-200/20"
       )}
     >
-      <Icon size={20} />
+      {/* <Icon size={20} /> */}
       <div className="truncate">{label}</div>
     </button>
   );

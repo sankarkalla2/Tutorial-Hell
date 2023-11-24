@@ -23,14 +23,12 @@ export const getChapter = async ({ userId, chapterId, courseId }: GetChapterProp
     const course = await prisma.course.findUnique({
       where: {
         id: courseId,
-        userId,
         isPublished: true,
       },
       select: {
         price: true,
       },
     });
-    console.log(course)
 
     const chapter = await prisma.chapter.findUnique({
       where: {

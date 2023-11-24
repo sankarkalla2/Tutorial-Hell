@@ -17,6 +17,7 @@ const CourseLayotPage = async ({
   const { userId } = auth();
   if (!userId) redirect("/");
 
+
   const course = await prisma.course.findUnique({
     where: {
       id: params.courseId,
