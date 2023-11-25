@@ -46,6 +46,7 @@ const Create = () => {
       router.push(`/teacher/courses/${res.data.id}`);
     } catch (err) {
       toast.error("something went wrong");
+      console.log(err);
     }
   };
   return (
