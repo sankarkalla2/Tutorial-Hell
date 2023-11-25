@@ -31,7 +31,11 @@ interface ChapterTitleFormProps {
   courseId: string;
 }
 
-const ChapterTitleForm = ({ intialData, chapterId, courseId }: ChapterTitleFormProps) => {
+const ChapterTitleForm = ({
+  intialData,
+  chapterId,
+  courseId,
+}: ChapterTitleFormProps) => {
   const [isEditing, setIsEditing] = useState<Boolean>(false);
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),

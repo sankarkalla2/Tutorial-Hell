@@ -44,16 +44,14 @@ const DescriptionForm = ({ intialData, courseId }: DescriptionFormProps) => {
 
   const onSubmit = async (values: z.infer<typeof formSchema>) => {
     try {
-      const res = await axios.patch(
-        `/api/courses/${courseId}`,
-        values
-      );
+      const res = await axios.patch(`/api/courses/${courseId}`, values);
 
       router.refresh();
       toggleEdit();
       toast.success(res.data);
     } catch (err) {
       toast.error("something went wrong");
+      console.log(err);
     }
   };
 

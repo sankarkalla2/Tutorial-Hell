@@ -34,7 +34,7 @@ export const PATCH = async (
   } catch (err: any) {
     return NextResponse.json(
       { massage: "your are not allowed" },
-      { status: 200 }
+      { status: 500 }
     );
   }
 };
