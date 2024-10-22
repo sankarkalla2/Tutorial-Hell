@@ -18,7 +18,7 @@ This Udemy Clone is a full-featured online course platform that allows users to 
 
 ## Live Demo
 
-[View Live Demo](your-live-demo-link-here)
+[View Live Demo](https://tutorial-hell-tau.vercel.app/)
 
 ## Key Features
 
@@ -52,7 +52,7 @@ This Udemy Clone is a full-featured online course platform that allows users to 
 
 1. Clone the repository
    ```
-   git clone https://github.com/your-username/udemy-clone.git
+   git clone https://github.com/sankarkalla2/Tutorial-Hell.git
    ```
 
 2. Install dependencies
@@ -111,6 +111,5 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Contact
 
-Your Name - [your.email@example.com](mailto:your.email@example.com)
+Your Name - [Gowrisankar Kalla](mailto:gowrisankarkalla4@gmail.com)
 
-Project Link: [https://github.com/your-username/udemy-clone](https://github.com/your-username/udemy-clone)
