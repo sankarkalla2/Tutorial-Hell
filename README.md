@@ -1,36 +1,108 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Udemy Clone
+
+A comprehensive online learning platform built with modern web technologies.
+
+![Udemy Clone Dashboard](path/to/dashboard-screenshot.png)
+
+## Project Overview
+
+This Udemy Clone is a full-featured online course platform that allows users to watch courses and instructors to upload educational content. Built with a robust tech stack, it offers a responsive interface for optimal viewing across devices, secure authentication, and multi-quality video streaming.
+
+## Live Demo
+
+[View Live Demo](your-live-demo-link-here)
+
+## Key Features
+
+- **Responsive Course Viewing**: Seamless watching experience across all devices.
+- **Course Upload System**: Instructors can easily upload and manage their courses.
+- **Secure Authentication**: Robust user authentication and profile management.
+- **Multi-Quality Streaming**: Adaptive video quality for the best viewing experience.
+- **Interactive Content**: Engaging educational content delivery.
+
+## Technology Stack
+
+- **Frontend**: Next.js, TypeScript, Tailwind CSS
+- **Backend**: Next.js API Routes
+- **Database**: PostgreSQL
+- **ORM**: Prisma
+- **Authentication**: Clerk.js
+- **Payment Processing**: Stripe
+- **Video Streaming**: MUX
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Node.js (v14 or later)
+- PostgreSQL
+- Stripe Account
+- Clerk.js Account
+- MUX Account
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Installation
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. Clone the repository
+   ```
+   git clone https://github.com/your-username/udemy-clone.git
+   ```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+2. Install dependencies
+   ```
+   cd udemy-clone
+   npm install
+   ```
 
-## Learn More
+3. Set up environment variables
+   ```
+   cp .env.example .env.local
+   ```
+   Edit `.env.local` with your specific configuration.
 
-To learn more about Next.js, take a look at the following resources:
+4. Run database migrations
+   ```
+   npx prisma migrate dev
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+5. Start the development server
+   ```
+   npm run dev
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+6. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-## Deploy on Vercel
+## Usage
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **For Students**: Browse courses, enroll, and start learning.
+- **For Instructors**: Create an instructor account, upload courses, and manage your content.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Contributing
+
+We welcome contributions to improve the Udemy Clone! Please follow these steps:
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+## Acknowledgements
+
+- [Next.js](https://nextjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [PostgreSQL](https://www.postgresql.org/)
+- [Prisma](https://www.prisma.io/)
+- [Clerk.js](https://clerk.dev/)
+- [Stripe](https://stripe.com/)
+- [MUX](https://mux.com/)
+
+## Contact
+
+Your Name - [your.email@example.com](mailto:your.email@example.com)
+
+Project Link: [https://github.com/your-username/udemy-clone](https://github.com/your-username/udemy-clone)
