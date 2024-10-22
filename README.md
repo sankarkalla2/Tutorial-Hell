@@ -2,7 +2,15 @@
 
 A comprehensive online learning platform built with modern web technologies.
 
-![Udemy Clone Dashboard](path/to/dashboard-screenshot.png)
+![Udemy Clone Dashboard](https://utfs.io/f/EW20NNhMOnaK0a2EbaXIKjTH6Uupn5YsqGcvoJRZt8OhBNwP)
+
+![](https://utfs.io/f/EW20NNhMOnaK7P9WpnTHpLlCO2StWBs1HRh8gNFzqMoZfED0)
+
+![Teacher Dashboard](https://utfs.io/f/EW20NNhMOnaKM3NAHv87RelcsCzOLfKwvS1iTE5q03Zh2HgF)
+
+![Create Course](https://utfs.io/f/EW20NNhMOnaKqZ7nm2g6bLd23pKVJA8o7RmjF4x0aCBeTiuf)
+
+![Create Chapter](https://utfs.io/f/EW20NNhMOnaKqQ8OPpg6bLd23pKVJA8o7RmjF4x0aCBeTiuf)
 
 ## Project Overview
 
